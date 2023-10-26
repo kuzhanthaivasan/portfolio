@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 216);
+}
+
+header {
+    background-color: rgb(247, 247, 216);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+
+  .black-section {
+    background-color: #201f1fc9;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .white-section {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .social-icons {
+    display: flex;
+}
+
+.icon {
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease; /* Add a transition for smooth animations */
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Add a CSS class for the animation */
+.icon.active {
+    transform: scale(1.2); /* Increase the size */
+    background-color: rgb(9, 108, 189); /* Change background color */
+    color: rgb(14, 13, 13); /* Change text color */
+    border-radius: 100px;
+    height: 47px;
+    width: fit-content;
+}
+/* Define the CSS animation */
+@keyframes clickAnimation {
+    from { transform: scale(0.5); }
+    to { transform: scale(0.7); }
+  }
+  
+  /* Define a class to apply the animation */
+  .click-animation {
+    animation: clickAnimation 0.2s ease-in-out;
+  }
+  
+  .image-container {
+    display: flex;
+}
+.container {
+    width: 400px;
+    height: 150px;
+    border: 2px solid #3498db;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #f1f1f1;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.container:hover {
+    background-color: #3498db;
+}
+
+.container p {
+    font-size: 24px;
+    color: #333;
+}
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 70%;
+    cursor: pointer;
+    padding: 10px;
+    height: 50px;
+}
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Adjust the radius to control the curve */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #2980b9; /* Change color on hover */
+}

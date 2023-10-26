@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #myImage {
+           border-radius: 10%;
+           overflow: hidden;
+           height: 100px;
+        }
+        
+ #myImage {
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.9s ease;
+ }
+
+ #myImage:hover {
+    transform: scale(1.1);
+ }
+
+       </style>
+    
+</head>
+<body>
+
+
+<header>
+    <img id="myImage"src="vasan1.jpeg" alt="">
+    <h1>R.KUZHANTHAIVASAN</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#achievements">Courses</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="about">
+        <div class="black-section">
+            <br>
+        <h1>About Me</h1>
+        <hr>
+        <br>
+        
+        <img src="about.jpeg" style="height: 350px;float: left;padding-right: 25px;">
+        <br><br>
+        <p>I am Kuzhanthai Vasan, a dedicated BSc computer science student with a strong passion for technology and its endless possibilities. Currently pursuing my degree, I'm eager to delve into the world of computer science and explore its various facets. My academic journey has been filled with curiosity and a drive to excel, with a focus on areas like artificial intelligence and web development.</p>
+<br>
+        <p>Beyond the classroom, I've had the opportunity to work on significant projects and research, applying my skills in various programming languages and technologies. These experiences have given me a taste of real-world applications of computer science.</p>
+    <br>    
+       <p>Outside of the computer science realm, I'm a well-rounded individual with diverse interests and hobbies. My background and personal experiences have shaped my journey in computer science, making it a unique and fulfilling path.</p>
+     <br>   
+        <p>Looking ahead, I aspire to continue my education and push the boundaries of what I can achieve in the field of computer science. I'm always eager to connect with like-minded individuals, collaborate on exciting projects, and explore new opportunities.</p>
+      <br>  
+        <p>Feel free to get in touch with me through the provided contact information, and let's embark on this technology-driven journey together.</p> </div> 
+        <br>
+    </div>
+       
+       
+    </section>
+
+    <section id="education">
+        <div class="white-section">
+            <br>
+        <h2>Education</h2>
+        <hr>
+        <p>I am a computer science student</p>
+        <p> studying at Thanthai Periyar Government Arts and Science College,Thiruchirappalli.
+            
+        </p>
+        <br><br>
+        <center>
+        <img id="myImage" src="1.jpg" style="border-radius: 20px;height: 300px;padding-right: 10px;">
+        <img id="myImage" src="2.png" alt="" style="border-radius: 20px;height: 300px;padding-left: 10px;"></center>
+    <script>
+        // Get a reference to the image element
+const image = document.getElementById('myImage');
+
+// Add a click event listener
+image.addEventListener('click', () => {
+  // Add the class to apply the animation
+  image.classList.add('click-animation');
+
+  // Remove the class after the animation finishes (you can adjust the time)
+  setTimeout(() => {
+    image.classList.remove('click-animation');
+  }, 100);
+});
+
+    </script>
+    <br><br><br>
+    </div>
+    </section>
+
+    <section id="skills">
+        <div class="black-section">
+            <center>
+        <h2>Skills</h2>
+        <p>Some of my technical skills include:</p>
+        <div class="container" onclick="animateContainer(this)">
+            <p style="padding-top: 30px;">Web Development</p>
+        </div>
+    
+        <div class="container" onclick="animateContainer(this)">
+            <p style="padding-top: 30px;">Python Programming</p>
+        </div>
+    
+        <div class="container" onclick="animateContainer(this)">
+            <p style="padding-top: 30px;">Visual Basic</p>
+        </div>
+    
+        <div class="container" onclick="animateContainer(this)">
+            
+           <center> <p style="padding-top: 30px;">Sql Oracle</p></center>
+        </div>
+    </center>
+        <script>
+            function animateContainer(container) {
+                container.style.transform = "scale(1.2)";
+                setTimeout(function () {
+                    container.style.transform = "scale(1)";
+                }, 300);
+            }
+        </script> 
+        <br><br>   
+    </div>
+    </section>
+    <section id="project">
+        <div class="white-section">
+            
+        <p>projects</p>
+        <hr><center>
+        <br>
+        <div class="container" onclick="animateContainer(this)">
+            <p style="padding-top: 30px;"><a href="https://kuzhanthaivasan.github.io/NAAC-SURVAY/" style="text-decoration: none;">NAAC WEBPAGE FOR STUDENT SURVEY</p></a>
+        </div>
+    
+        <div class="container" onclick="animateContainer(this)">
+            <p style="padding-top: 30px;"><a href="https://kuzhanthaivasan.github.io/basic-tense/"  style="text-decoration: none;">LEARNING WEBSITE FOR BASIC TENSE</p></a>
+            
+        </div>
+    </center>
+</div>
+<br><br>
+    </section>
+
+   <section id="achievements">
+    <div class="black-section">
+        <br><br>
+    <p>completed courses are:</p>
+    <hr>
+    <ul>
+        <li>Microsoft office</li>
+        <p>The course focuses on Microsoft Office applications and provides certificates upon completion</p>
+        <p>Their are so many concepts were taught and real time examples were shown.</p>
+        <p>well skillfull in worde,excel and powerpoint,</p>
+        <p>8 week course each week each type of office were taught.</p>
+    
+    <p><a href="LPCertificate_370159_4_ng7rh.pdf">click here to view certificate</a></p>
+    <li>Foundation of cloud computing</li>
+    <p>The course focus on cloud computing </p>
+    <p>Cloud computing is a technology paradigm that has revolutionized the way organizations store, manage, and access data and applications. It involves the delivery of computing services, including servers, storage, databases, networking, software, analytics, and intelligence, over the internet (the cloud) to offer faster innovation, flexible resources, and economies of scale.</p>
+    <p>This is a 8 week base course.</p>
+    <p>This course is taught HTML,CSS,JS to develop a website in a efficiant way</p>
+    <p><a href="SkillsBuild full.pdf">click here to view certificate</a></p>
+    </ul>
+    <br>
+</div>
+   </section>
+    <section id="contact">
+    
+        <div class="white-section">
+
+
+        <h2>Contact</h2>
+
+
+        <div class="social-icons">
+            <a href="mailto:vasanravi12032004@gmail.com" class="icon" id="mail">
+                <img src="mail (1).png" alt="Email">
+            </a>
+            <a href="tel:+916381698311" class="icon" id="contact">
+                <img src="call.png" alt="Contact">
+            </a>
+            <a href="https://www.linkedin.com/in/your-profile" class="icon" id="linkedin">
+                <img src="linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+    
+        <script src="index.js"></script>
+        <button id="scrollToTop" onclick="scrollToTop()">Back to Top</button>
+
+    <script>
+        // Show the button when the user scrolls down 20px
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollToTop").style.display = "block";
+            } else {
+                document.getElementById("scrollToTop").style.display = "none";
+            }
+        }
+
+        // Scroll to the top when the button is clicked
+        function scrollToTop() {
+            
+            document.documentElement.scrollTop = 0; // For Chrome
+        }
+        </script>
+        <section id="resume">
+            <div class="black-section">
+            <p>Resume</p>
+            <hr><center>
+                <br>
+            <a class="download-button" href="WhatsApp Image 2023-10-26 at 11.10.02 AM.jpeg">Download</a></center>
+            </div>
+        </section>
+            
+    </body>
+    </html>
+   
